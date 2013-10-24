@@ -377,8 +377,6 @@
 				$commentresult = mysqli_query($db_obj, $comment_sql_query);
 				$commentcount = mysqli_num_rows($commentresult);
 
-//				$imagepath = "http://twoservices.net/work/tian/orion/song/image/" . $res_array['imagefile'];
-//				$songpath = "http://twoservices.net/work/tian/orion/song/" . $res_array['songfile'];
 
 				$temp[$i] = array(
 					"id" => $res_array['id'],
